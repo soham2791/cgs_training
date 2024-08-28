@@ -1,0 +1,54 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#topBar {
+    height:auto;
+    display: flex;
+
+    background-color: #535353;
+}
+
+#profilePic {
+    line-height: normal;
+    width:fit-content;
+    display: flex;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+    display: flex;
+}
+
+.navBar {
+    height: 100vh;
+    width: 150dvh;
+    display:flex;
+    background-attachment: #888;
+    align-items: first baseline;
+}
+
+.navLeft {
+    height: 100ch;
+    width: 300dvb;
+    display: flex;
+    background-color: #8888;
+}
+
+.navRight {
+    height: auto;
+    width: fit-content;
+    display: flex;
+}
+
+.navTop {
+    height: 200vh;
+    width: 150vh;
+    display: flex;
+}
+
+.contentBox {
+
+}

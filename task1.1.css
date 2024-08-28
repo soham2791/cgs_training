@@ -1,0 +1,28 @@
+,::after,*::before{
+    padding: 0%;
+    border: none;
+    margin: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+
+
+}
+
+#container{
+    height: 100vh;
+    
+}
+
+
+#stories img{
+    border-radius: 50%;
+    border: 1px solid red;
+}
+#stories{
+    overflow: scroll;
+}
+
+.card-header{
+    background-color: #888;
+
+}

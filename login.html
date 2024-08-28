@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blue;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .profile-container {
+            width: 320px;
+            background-color: pink;
+            border: 1px;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .profile-header {
+            display: flex;
+            align-items: center;
+        }
+        .profile-header img {
+            width: 80px;
+            height: 80px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+        .profile-header h1 {
+            font-size: 18px;
+            margin: 0;
+
+        }
+        .profile-header p {
+            color: bisque;
+            margin: 0;
+        }
+        .profile-stats {
+            display: flex;
+            margin: 20px;
+        }
+        .gallery {
+            display: grid;
+            gap: 5px;
+        }
+        .gallery image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        div{
+            height: 300px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <img src="https://www.bing.com/images/search?q=instagram+logo&form=IQFRBA&id=BD97F3BDF96BEE7D2A2E1E814E740D2FF94E398B&first=1&cw=1217&ch=676" alt="Profile Picture">
+            <div>
+                <h1>Name</h1>
+                <p>username</p>
+            </div>
+        </div>
+        <div class="profile-suggestions">
+            <div>
+                <h2>Posts</h2>
+                <p>Number</p>
+            </div>
+            <div>
+                <h2>Followers</h2>
+                <p>650</p>
+            </div>
+            <div>
+                <h2>Following</h2>
+                <p>630</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="gallery">
+        <img src="https://www.bing.com/images/search?q=instagram+logo&form=IQFRBA&id=BD97F3BDF96BEE7D2A2E1E814E740D2FF94E398B&first=1&cw=1217&ch=676" alt="Post 1">
+        <img src="https://www.bing.com/images/search?q=instagram+logo&form=IQFRBA&id=BD97F3BDF96BEE7D2A2E1E814E740D2FF94E398B&first=1&cw=1217&ch=676" alt="Post 2">
+        <img src="https://www.bing.com/images/search?q=instagram+logo&form=IQFRBA&id=BD97F3BDF96BEE7D2A2E1E814E740D2FF94E398B&first=1&cw=1217&ch=676" alt="Post 3">
+        <img src="https://www.bing.com/images/search?q=instagram+logo&form=IQFRBA&id=BD97F3BDF96BEE7D2A2E1E814E740D2FF94E398B&first=1&cw=1217&ch=676" alt="Post 4">
+    </div>
+
+</body>
+</html>
